@@ -17,11 +17,17 @@
 			$_SESSION['product3'] = $_POST['product3'];
 			$_SESSION['price3'] = $_POST['price3'];
 			$_SESSION['price'] = $_POST['content'];
+			$_SESSION['valid'] = true;
+		}
+		else {
+			$_SESSION['valid'] = false;
 		}
 	}
 ?>
 
+
 <div class="container">
+<?php if($_SESSION['valid']) { ?>
 	<h2>Summary</h2>
 	<hr>
 	<div class="my-2">
@@ -128,6 +134,9 @@
    
     ?>
 	</div>
+<?php } else { ?>
+	You didn't fill in data corectly!
+<?php } ?>
 </div>
 
 <?php include("footer.php");?>

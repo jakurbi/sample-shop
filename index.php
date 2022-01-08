@@ -22,7 +22,6 @@
             <label for="zipcode" class="form-label">ZIP Code</label>
             <input type="text" class="form-control" id="zipcode" name="zipcode" placeholder="11111" tabindex="5" required>
         </div>
-
 		<div class="row mt-5">
 		    <div class="col-sm">
 				<div class="card" style="width: 18rem;">
@@ -60,6 +59,7 @@
 				  </div>
 				</div>
 			</div>
+		</div>
 		<div class="my-2">
 			Total price: <span id="total_price">0</span> CZK
 			<input type="hidden" id="hidden" name="content" value="">
@@ -68,8 +68,6 @@
             <button type="submit" class="btn btn-primary">Buy</button>
         </div>
     </form>
-
-    
 </div>
 
 <?php include("footer.php"); ?>
