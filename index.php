@@ -30,9 +30,9 @@
 				  <div class="card-body">
 				    <h5 class="card-title">Shoes</h5>
 				    <label>Price: </label>
-				    <input type="number" min=0 id="price1" name="prices[]" value=0> CZK<br>
+				    <input type="number" min=0 id="price1" name="price1" value=0> CZK<br>
 				    <label>Amount: </label>
-				    <input type="number" min=0 id="product1" name="products[]" value=0>
+				    <input type="number" min=0 class="product" id="product1" name="product1" value=0>
 				  </div>
 				</div>
 			</div>
@@ -40,11 +40,11 @@
 				<div class="card" style="width: 18rem;">
 				  <img class="card-img-top" src="tshirt.png" alt="Card image cap">
 				  <div class="card-body">
-				    <h5 class="card-title">T-shirt</h5>
+				    <h5 class="card-title">T-Shirt</h5>
 				    <label>Price: </label>
-				    <input type="number" min=0 id="price2" name="prices[]" value=0> CZK<br>
+				    <input type="number" min=0 id="price2" name="price2" value=0> CZK<br>
 				    <label>Amount: </label>
-				    <input type="number" min=0 id="product2" name="products[]" value=0>
+				    <input type="number" min=0 class="product" id="product2" name="product2" value=0>
 				  </div>
 				</div>
 			</div>
@@ -54,9 +54,9 @@
 				  <div class="card-body">
 				    <h5 class="card-title">Trousers</h5>
 				    <label>Price: </label>
-				    <input type="number" min=0 id="price3" name="prices[]" value=0> CZK<br>
+				    <input type="number" min=0 id="price3" name="price3" value=0> CZK<br>
 				    <label>Amount: </label>
-				    <input type="number" min=0 id="product3" name="products[]" value=0>
+				    <input type="number" min=0 class="product" id="product3" name="product3" value=0>
 				  </div>
 				</div>
 			</div>
