@@ -4,11 +4,11 @@
     <form action="success.php" method="POST" onsubmit="javascript: return process();">
         <div class="form-group">
             <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
+            <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" tabindex="1" required>
         </div>
         <div class="form-group">
             <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="jane@doe.com" tabindex="2" required>
+            <input type="email" class="form-control" id="email" name="email" placeholder="john@doe.com" tabindex="2" required>
         </div>
         <div class="form-group">
             <label for="street" class="form-label">Street</label>
@@ -20,7 +20,7 @@
         </div>
         <div class="form-group">
             <label for="zipcode" class="form-label">ZIP Code</label>
-            <input type="text" class="form-control" id="zipcode" name="zipcode" placeholder="11111" tabindex="5" required>
+            <input type="text" class="form-control" id="zipcode" name="zipcode" placeholder="11111" minlength=5 maxlength=5 tabindex="5" required>
         </div>
 		<div class="row mt-5">
 		    <div class="col-sm">

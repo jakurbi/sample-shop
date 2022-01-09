@@ -2,7 +2,7 @@
 
 <?php 
 	session_start();
-	if(isset($_POST['email']) && $_POST['email'] != ''){
+	if(isset($_POST['email']) && !empty($_POST['email'])){
 		if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
 		{
 			$_SESSION['name'] = $_POST['name'];
